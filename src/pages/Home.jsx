@@ -1,9 +1,16 @@
-import Home from '../pages/Home'
+import React from 'react';
+import styles from '../pages/home.module.css'
 
 const Home = () => {
   return(
     <>
-      <h1>Soy una homepage.</h1>
+      <section className={`container-fluid ${styles.height}`}>
+        <div className='row text-center'>
+          <div>
+            <h1>Soy una homepage.</h1>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
